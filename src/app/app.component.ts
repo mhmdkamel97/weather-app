@@ -3,6 +3,8 @@ import { faTemperatureLow } from '@fortawesome/free-solid-svg-icons';
 import { faTemperatureHigh } from '@fortawesome/free-solid-svg-icons';
 import { faWind } from '@fortawesome/free-solid-svg-icons';
 import { faDroplet } from '@fortawesome/free-solid-svg-icons';
+import { faCloudShowersHeavy } from '@fortawesome/free-solid-svg-icons';
+import { faSun } from '@fortawesome/free-solid-svg-icons';
 import { WeatherService } from './services/weather.service';
 @Component({
   selector: 'app-root',
@@ -15,6 +17,8 @@ export class AppComponent {
   faTemperatureHigh = faTemperatureHigh;
   faWind = faWind;
   faDroplet = faDroplet;
+  faCloudShowersHeavy = faCloudShowersHeavy;
+  faSun = faSun;
 
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.

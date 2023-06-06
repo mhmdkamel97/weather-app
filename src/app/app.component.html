@@ -13,6 +13,8 @@
       <img src="../assets/hot.jpg" *ngIf="weatherData.main.temp>=15">
 
       <div class="weather-info">
+         <fa-icon class="mainIcon" [icon]="faCloudShowersHeavy" *ngIf="weatherData.main.temp<15"></fa-icon>
+         <fa-icon class="mainIcon" [icon]="faSun" *ngIf="weatherData.main.temp>=15"></fa-icon>
          <div class="country">{{weatherData.name}}</div>
          <div class="temperature">{{weatherData.main.temp}}°</div>
       </div>

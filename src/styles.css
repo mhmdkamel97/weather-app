@@ -164,3 +164,9 @@ input {
 
    background-color: var(--blue2);
  }
+
+
+ .mainIcon{
+   color: var(--yellow);
+   font-size: 3em;
+ }
