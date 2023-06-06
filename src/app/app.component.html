@@ -1,10 +1,10 @@
 <div>
    <form action="" (submit)="onSubmit()">
-      <label>search by city or country:::</label>
+      <label>search by city or country:</label>
       <input type="text" name="city" placeholder="Example: london" [(ngModel)]='city'  >
 
    </form>
-   <button class="btn" (click)="showTemperature()">showw</button>
+   <button class="btn" (click)="showTemperature()">show</button>
 </div>
 <div class="container" *ngIf="weatherData">
    <div class="upper-data">
