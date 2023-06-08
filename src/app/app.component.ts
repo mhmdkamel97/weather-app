@@ -20,7 +20,6 @@ export class AppComponent {
   faCloudShowersHeavy = faCloudShowersHeavy;
   faSun = faSun;
 
-  
 
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
@@ -53,7 +52,8 @@ export class AppComponent {
       this.city='';
     }
 
-    
+
+  
 
 
   }
